@@ -1,0 +1,41 @@
+
+body{
+    background:  none;
+}
+.img-responsive{
+    width:70px;
+    height:70px;
+    margin-top:10px;
+}
+.q{
+    background:#f5f7fc;
+    height:auto;
+    margin-top: 50px;
+    margin-right: 47px;
+    border-radius:8px;
+}
+.q:hover{
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 70%);
+    transition: all .9999s ease;
+}
+.p{
+    color: grey;
+    margin-bottom: 0px;
+}
+.instal{
+    margin-left:5px;
+    width: 95% !important;
+    margin:auto !important;
+
+
+}
+
+@media  screen and (max-width: 600px) {
+  .q{
+      width:95%;
+      margin:  auto;
+      margin-top: 15px;
+  }
+  }
+
+
